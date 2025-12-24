@@ -16,7 +16,7 @@ function Hero() {
     >
         <div className=' '>
             <h1 className="text-[#0F172A] leading-snug text-5xl pb-4 font-bold">
-        Smart Software for Modern <br></br>Dermatology Clinics.
+        Software for Modern <br></br>Dermatology Clinics.
       </h1>
       <p className='leading-relaxed pb-5 text-[#8B6B5E]'>Manage patients, prescriptions, treatments, inventory, <br></br>and billing securely and efficiently.</p>
       <button
