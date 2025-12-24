@@ -51,7 +51,7 @@ function Hero() {
                     <div className="join">
                         
                     <div>
-                        <label className="input bg-amber-100 validator join-item">
+                        <label className="input bg-[#f5beb3] validator join-item">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
                             strokeLinejoin="round"
@@ -70,7 +70,7 @@ function Hero() {
                     </div>
                     <button className="btn btn-neutral join-item">Send</button>
                     </div>
-                    <p className="py-4">We will send demo link to your mail</p>
+                    <p className="py-4">We will send demo link to your mail.</p>
                 </div>
                     </div>
                     
