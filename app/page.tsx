@@ -1,5 +1,10 @@
 import CardNav from '@/components/CardNav';
+import Features from '@/components/features';
+import Footer from '@/components/footer';
 import Hero from '@/components/Hero';
+import Journey from '@/components/journey';
+import MagicBento from '@/components/MagicBento'
+import Pricing from '@/components/pricing';
 const logo = '/logo.png';
 
 export default function Home() {
@@ -46,6 +51,22 @@ export default function Home() {
       ease="power3.out"
     />
     <Hero />
+    <Features/>
+    <Journey/>
+    <Pricing/>
+    <MagicBento 
+      textAutoHide={true}
+      enableStars={true}
+      enableSpotlight={true}
+      enableBorderGlow={true}
+      enableTilt={false}
+      enableMagnetism={false}
+      clickEffect={true}
+      spotlightRadius={300}
+      particleCount={120}
+      glowColor="192, 107, 89"
+    />
+    <Footer />
     </>
   );
 }

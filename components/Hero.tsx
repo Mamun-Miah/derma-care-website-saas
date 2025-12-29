@@ -15,10 +15,10 @@ function Hero() {
       "
     >
         <div className=' '>
-            <h1 className="text-[#0F172A] leading-snug text-5xl pb-4 font-bold">
-        Software for Modern <br></br>Dermatology Clinics.
+            <h1 className="text-[#0F172A] leading-tight text-6xl pb-4 font-bold">
+        Run a Smarter,<br></br> Paperless<br></br> Dermatology Clinic
       </h1>
-      <p className='leading-relaxed pb-5 text-[#8B6B5E]'>Manage patients, prescriptions, treatments, inventory, <br></br>and billing securely and efficiently.</p>
+      <p className='leading-relaxed pb-5 text-[#8B6B5E]'>Get appointment booking, digital prescriptions, auto-invoicing,<br></br> treatment tracking, patient portal, e-commerce all in one secure system.<br></br> Only BDT 5,000/month. </p>
       <button
             type="button"
             className=" btn card-nav-cta-button hidden md:inline-flex border-0 py-3 bg-[#2563EB] rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium text-white cursor-pointer transition-colors duration-300"
@@ -41,17 +41,17 @@ function Hero() {
       
     </div>
     <dialog id="my_modal_3" className="modal">
-                <div className="modal-box">
+                <div className="modal-box bg-white" >
                     <form method="dialog">
                     {/* if there is a button in form, it will close the modal */}
                     <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
                     </form>
                     <div className="text-center flex flex-col items-center justify-center space-y-5">
-                    <h3 className="font-bold text-lg">Submit your mail</h3>
+                    <h3 className="font-bold text-lg">Submit Your Mail</h3>
                     <div className="join">
                         
                     <div>
-                        <label className="input bg-[#f5beb3] validator join-item">
+                        <label className="input bg-[#eee2e0] validator join-item">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
                             strokeLinejoin="round"
