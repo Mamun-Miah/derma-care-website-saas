@@ -3,7 +3,7 @@ import Features from "@/components/features";
 import Footer from "@/components/footer";
 import Hero from "@/components/Hero";
 import Journey from "@/components/journey";
-import MagicBento from "@/components/MagicBento";
+// import MagicBento from "@/components/MagicBento";
 import Pricing from "@/components/pricing";
 const logo = "/logo.png";
 
@@ -75,7 +75,7 @@ export default function Home() {
         ease="power3.out"
       />
       <Hero />
-      <MagicBento
+      {/* <MagicBento
         textAutoHide={true}
         enableStars={true}
         enableSpotlight={true}
@@ -86,7 +86,7 @@ export default function Home() {
         spotlightRadius={300}
         particleCount={120}
         glowColor="192, 107, 89"
-      />
+      /> */}
       <Features />
       <Journey />
       <Pricing />
