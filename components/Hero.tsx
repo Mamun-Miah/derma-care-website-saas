@@ -29,17 +29,12 @@ function Hero() {
           </p>
           <button
             type="button"
-<<<<<<< HEAD
             className="btn card-nav-cta-button border-0 py-3 bg-[#2563EB] rounded-[calc(0.75rem-0.2rem)] px-4 items-center font-medium text-white cursor-pointer transition-colors duration-300"
             onClick={() =>
               (
                 document.getElementById("my_modal_3") as HTMLDialogElement
               ).showModal()
             }
-=======
-            className=" btn card-nav-cta-button hidden md:inline-flex border-0 py-3 bg-primary-theme rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium text-white cursor-pointer transition-colors duration-300"
-            onClick={()=>(document.getElementById('my_modal_3') as HTMLDialogElement).showModal()}
->>>>>>> f5a27a57c58cc5614eee2abd569d2c221d99d198
           >
             Request a Demo
           </button>
