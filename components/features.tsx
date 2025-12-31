@@ -82,9 +82,9 @@ export default function Features() {
           {features.map((feature, idx) => (
             <div
               key={idx}
-              className="rounded-xl border border-border bg-card p-6 hover:shadow-lg transition duration-300 hover:bg-[#6dadfc]"
+              className="rounded-xl border border-border bg-card p-6 hover:shadow-lg transition duration-300 hover:bg-[#FDEDEB]"
             >
-              <div className="text-3xl mb-3 bg-[#2563EB] text-white w-12 h-12 rounded-full flex items-center justify-center">
+              <div className="text-3xl mb-3 bg-[#C06B59] text-white w-12 h-12 rounded-full flex items-center justify-center">
                 {feature.icon}
               </div>
               <h3 className="text-lg font-semibold text-foreground mb-2">
