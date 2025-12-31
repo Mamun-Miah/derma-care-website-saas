@@ -21,7 +21,7 @@ function Hero() {
       <p className='leading-relaxed pb-5 text-[#8B6B5E]'>Get appointment booking, digital prescriptions, auto-invoicing,<br></br> treatment tracking, patient portal, e-commerce all in one secure system.<br></br> Only BDT 5,000/month. </p>
       <button
             type="button"
-            className=" btn card-nav-cta-button hidden md:inline-flex border-0 py-3 bg-[#2563EB] rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium text-white cursor-pointer transition-colors duration-300"
+            className=" btn card-nav-cta-button hidden md:inline-flex border-0 py-3 bg-primary-theme rounded-[calc(0.75rem-0.2rem)] px-4 items-center h-full font-medium text-white cursor-pointer transition-colors duration-300"
             onClick={()=>(document.getElementById('my_modal_3') as HTMLDialogElement).showModal()}
           >
             Request a Demo
