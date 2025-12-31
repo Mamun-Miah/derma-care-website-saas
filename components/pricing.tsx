@@ -42,7 +42,7 @@ export default function Pricing() {
           </div>
 
           <Button className="w-full bg-primary-theme text-primary-foreground hover:bg-primary/90 h-12 text-base">
-            Start Your 14-Day Free Trial
+            Contact Sales
           </Button>
           <p className="text-center text-sm text-foreground/60 mt-4">
             Or{" "}
